@@ -1,0 +1,31 @@
+.game{
+    height: 8em;
+    max-width: 8em;
+    border-radius: 20px;
+}
+
+.all{
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    max-width: 80em;
+}
+
+.card{
+    width: 12em;
+    height: 20em;
+    gap: 10px;
+    margin: 1em;
+    display: block;
+    padding: 60px;
+    background-color: gray;
+    border-radius: 20px;
+    align-self: center;
+    justify-content: center;
+}
+
+.allContent{
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
